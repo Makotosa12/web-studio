@@ -1,3 +1,11 @@
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: normal;
+    font-weight: 700;
+}
+
 .header-title{
     font: Raleway;
 }
@@ -12,20 +20,14 @@
 
 .header-contact{
     color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.28px;
 }
 
 .decision-title{
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px; /* 136.364% */
     letter-spacing: 2.64px;
@@ -35,30 +37,19 @@
 .decision-button{
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
 }
 
 .inform-title{
     color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
 .inform-text{
     color: #757575;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
@@ -67,44 +58,30 @@
 .doing-title{
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
 .workers-title{
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 1.08px;
 }
 
 .worker-name{
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
 .worker-doing{
     color: #757575;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.48px;
 }
 
@@ -112,17 +89,11 @@
     color: #FFF;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 0.78px;
 }
 
 .address{
     color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
@@ -130,9 +101,6 @@
 
 .footer-item{
     color: rgba(255, 255, 255, 0.60);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
