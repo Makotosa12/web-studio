@@ -1,9 +1,16 @@
+:root {
+    --text-color: #212121;
+    --color-grey: #757575;
+    --color-white: #fff;
+}
+
 body{
     font-family: Roboto;
     font-style: normal;
     font-size: 14px;
     line-height: normal;
     font-weight: 700;
+    color: var(--text-color);
 }
 
 .header-title{
@@ -19,58 +26,54 @@ body{
 }
 
 .header-contact{
-    color: #757575;
+    color: var(--color-grey);
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
 .decision-title{
-    color: #FFF;
+    color: var(--color-white);
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px; /* 136.364% */
+    line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
 
 .decision-button{
-    color: #FFF;
+    color: var(--color-white);
     text-align: center;
     font-size: 16px;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
     letter-spacing: 0.96px;
 }
 
 .inform-title{
-    color: #212121;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
 
 .inform-text{
-    color: #757575;
+    color: var(--color-grey);
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 
     letter-spacing: 0.42px;
 }
 
 .doing-title{
-    color: #212121;
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
 }
 
 .workers-title{
-    color: #212121;
     text-align: center;
     font-size: 36px;
     letter-spacing: 1.08px;
 }
 
 .worker-name{
-    color: #212121;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -78,7 +81,7 @@ body{
 }
 
 .worker-doing{
-    color: #757575;
+    color: var(--color-grey);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -86,22 +89,22 @@ body{
 }
 
 .footer-title{
-    color: #FFF;
+    color: var(--color-white);
     font-family: Raleway;
     font-size: 26px;
     letter-spacing: 0.78px;
 }
 
 .address{
-    color: #FFF;
+    color: var(--color-white);
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 
     letter-spacing: 0.42px;
 }
 
 .footer-item{
     color: rgba(255, 255, 255, 0.60);
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px; 
     letter-spacing: 0.42px;
 }
