@@ -1,13 +1,13 @@
 :root {
     --text-color: #000;
     --color-header: #2196F3;
-    --color-grey: #212121;
-    --light-grey: #757575;
-    --white: #ffffff;
+    --background-color: #212121;
+    --small-text: #757575;
+    --auxiliary-text: #ffffff;
 }
 
 .header-title{
-    color: var(--color-white);
+    color: var(--auxiliary-text);
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -27,7 +27,7 @@
 }
 
 .header-link{
-    color: var(--color-grey);
+    color: var(--background-color);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -37,7 +37,7 @@
 }
 
 .header-item-contact{
-    color: var(--light-grey);
+    color: var(--small-text);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -47,7 +47,7 @@
 }
 
 .buttons-button{
-    color: var(--color-grey);
+    color: var(--background-color);
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -58,7 +58,7 @@
 }
 
 .cards-title{
-    color: var(--color-grey);
+    color: var(--background-color);
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -68,7 +68,7 @@
 }
 
 .cards-text{
-    color: var(--light-grey);
+    color: var(--small-text);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -78,7 +78,7 @@
 }
 
 .footer-title{
-    color: var(--white);
+    color: var(--auxiliary-text);
     font-family: Raleway;
     font-size: 26px;
     font-style: normal;
@@ -98,7 +98,7 @@
 }
 
 .footer-adresse{
-    color: var(--white);
+    color: var(--auxiliary-text);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -108,7 +108,7 @@
 }
 
 .footer-item{
-    color: var(--light-grey);
+    color: var(--small-text);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;

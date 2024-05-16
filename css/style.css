@@ -1,7 +1,9 @@
 :root {
-    --text-color: #212121;
-    --color-grey: #757575;
-    --color-white: #fff;
+    --text-color: #000;
+    --color-header: #2196F3;
+    --background-color: #212121;
+    --small-text: #757575;
+    --auxiliary-text: #ffffff;
 }
 
 body{
@@ -26,13 +28,13 @@ body{
 }
 
 .header-contact{
-    color: var(--color-grey);
+    color: var(--background-color);
     font-weight: 500;
     letter-spacing: 0.28px;
 }
 
 .decision-title{
-    color: var(--color-white);
+    color: var(--auxiliary-text);
     text-align: center;
     font-size: 44px;
     font-weight: 900;
@@ -42,7 +44,7 @@ body{
 }
 
 .decision-button{
-    color: var(--color-white);
+    color: var(--auxiliary-text);
     text-align: center;
     font-size: 16px;
     line-height: 30px;
@@ -55,7 +57,7 @@ body{
 }
 
 .inform-text{
-    color: var(--color-grey);
+    color: var(--background-color);
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.42px;
@@ -81,7 +83,7 @@ body{
 }
 
 .worker-doing{
-    color: var(--color-grey);
+    color: var(--background-color);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -89,14 +91,14 @@ body{
 }
 
 .footer-title{
-    color: var(--color-white);
+    color: var(--auxiliary-text);
     font-family: Raleway;
     font-size: 26px;
     letter-spacing: 0.78px;
 }
 
 .address{
-    color: var(--color-white);
+    color: var(--auxiliary-text);
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.42px;
